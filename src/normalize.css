@@ -10,6 +10,12 @@ html {
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+  font-family: "Microsoft YaHei",
+    Arial,
+    Helvetica,
+    sans-serif,
+    Tahoma;
+  font-size: 14px;
 }
 
 /* Sections

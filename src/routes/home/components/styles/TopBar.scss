@@ -1,0 +1,41 @@
+.topBar {
+  display: flex;
+  align-items: center;
+  padding: 4px 20px;
+
+  &_city {
+    font-size: 14px;
+    color: #000;
+
+    &::after {
+      content: '';
+      display: inline-block;
+      margin-left: 6px;
+      top: 10px;
+      width: 0;
+      height: 0;
+      border-width: 4px;
+      border-style: solid;
+      border-color: #000 transparent transparent;
+    }
+  }
+
+  &_search {
+    flex: 1;
+    margin: 0 14px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #f6f6f6;
+    border-radius: 14px;
+    padding-left: 20px;
+  }
+
+  &_scan {
+    width: 20px;
+    height: 20px;
+    background-image: url('../../../../icons/scan.svg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+  }
+}
